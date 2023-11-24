@@ -4,7 +4,7 @@ from app import application
 @application.route('/')
 @application.route('/index')
 def index():
-    return render_template('index.html', title='Mini Project 1 Home')
+    return render_template('index.html', title='DTP web app')
 
 @application.route('/ex1')
 def exercise1():
