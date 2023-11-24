@@ -40,6 +40,6 @@ def function2():
 	x1 = int(value1) + int(value3)
 	x2 = int(value2) + int(value4)
 	numbers2 = b0 + b1*(1-log(x1)) + b2*((100-x2)**(1/2))
-	numbers = (numbers1/numbers2 - 1) * 100
+	numbers = (numbers2/numbers1 - 1) * 100
 
 	document.getElementById("sorted").innerHTML = str(numbers) + "%"
